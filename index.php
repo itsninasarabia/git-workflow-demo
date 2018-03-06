@@ -1,7 +1,3 @@
-<?php
-    include('functions.php');
-    $db = new DB($_SERVER['REMOTE_ADDR'], $_ENV["MYSQL_DATABASE"], $_ENV["MYSQL_USER"], $_ENV["MYSQL_PASSWORD"]);
-?>
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
     <head>
@@ -27,6 +23,7 @@
                     </div>
                 </div>
             </div>
+
 
         </div>
 
